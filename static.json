@@ -1,7 +1,8 @@
 {
   "headers": {
     "/*": {
-      "X-Author": "solaireat"
+      "X-Author": "solaireat",
+      "Access-Control-Allow-Origin": "*"
     }
   }
 }
