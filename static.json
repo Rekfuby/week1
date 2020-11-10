@@ -1,5 +1,8 @@
 {
-	"clean_urls": true,
+	"routes": {
+		"/login/*": "login.html",
+		"/sample/*": "sample.html"
+	},
 	"headers": {
 		"/**": {
 		"Content-Type": "text/plain; charset=UTF-8",
