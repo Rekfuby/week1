@@ -1,13 +1,9 @@
 {
-  "headers": {
-    "/**": {
-      "Content-Type": "text/plain; charset=UTF-8",
-      "Access-Control-Allow-Origin": "*"
-    }
-  },  
-  "routes": {
-    "/login/*": "index.html",
-    "/sample/*": "index2.html"
-  },
-  "clean_urls": true
+	"clean_urls": true,
+	"headers": {
+		"/**": {
+		"Content-Type": "text/plain; charset=UTF-8",
+		"Access-Control-Allow-Origin": "*"
+		}
+	}
 }
