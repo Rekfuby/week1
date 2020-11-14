@@ -3,15 +3,15 @@
 <body>
 
 <script>
-	function GetData() {
-		fetch(document.getElementById("inp").value)
-		.then((response) => {
-			document.getElementById("inp").value = response.text();
+	async function GetData() {
+		let url = document.getElementById('inp').value;
+		let text = await fetch(url).then((response) => response.text());
+        document.getElementById("inp").value = text;
 		});
 	}
 </script>
 <input id=inp type="text">
-<button id=bt onclick="GetData()">asd</button>
+<button id=bt onclick="GetData()"></button>
 
 </body>
 </html>
