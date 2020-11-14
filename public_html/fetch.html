@@ -7,7 +7,6 @@
 		let url = document.getElementById('inp').value;
 		let text = await fetch(url).then((response) => response.text());
         document.getElementById("inp").value = text;
-		});
 	}
 </script>
 <input id=inp type="text">
